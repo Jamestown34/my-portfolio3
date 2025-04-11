@@ -3,15 +3,15 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap");
 
 :root {
-  --accent-light: #1e3a8a; /* Lighter navy blue for hover effects */
-  --accent-dark: #0f172a; /* Darker navy blue */
-  --bg-body: #f5f5f5; /* Background color */
-  --text1: #333; /* Primary text color */
-  --text2: #666; /* Secondary text color */
-  --accent: #1e3a8a; /* Primary accent color */
-  --button-bg: #0f172a; /* Button background color */
-  --button-text: #fff; /* Button text color */
+  --accent-light: #e0f2ff; /* light blue */
+  --accent-dark: #1e3a8a;  /* dark blue */
+  --bg-body: #f5f5f5;      /* background color */
+  --text1: #333;           /* primary text color */
+  --text2: #666;           /* secondary text color */
+  --accent: #1e90ff;       /* accent blue */
+  --bg-body2: #e0f2ff;     /* navbar/menu background */
 }
+
 
 /* Global Styles */
 * {
