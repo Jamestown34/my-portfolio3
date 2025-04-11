@@ -196,11 +196,14 @@ section {
   justify-content: center;
 }
 
+/* ICONS */
+
 .icon {
-  height: 1.2rem;  /* smaller icon size */
-  width: 1.2rem;
   cursor: pointer;
+  height: 1rem;  /* reduced from 2rem to 1rem */
+  width: 1rem;   /* ensure width is also minimized */
 }
+
 
 /* TEXT SECTION */
 
