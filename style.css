@@ -20,6 +20,11 @@
   box-sizing: border-box;
 }
 
+img {
+  max-width: 100%;
+  height: auto;
+}
+
 body {
   font-family: "Poppins", sans-serif;
   background-color: var(--bg-body);
@@ -832,4 +837,22 @@ footer {
 
 footer p {
   text-align: center;
+}
+@media (max-width: 768px) {
+  body {
+    padding: 1rem;
+  }
+
+  h1 {
+    font-size: 1.5rem;
+  }
+
+  p {
+    font-size: 1rem;
+  }
+
+  .container {
+    flex-direction: column;
+    gap: 20px;
+  }
 }
